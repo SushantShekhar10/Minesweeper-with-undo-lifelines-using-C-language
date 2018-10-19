@@ -69,7 +69,7 @@ int main()
 
     if(i==0)
     {
-        printf("\nGame OVER, ta ta. you stepped on a MINE !!\n");
+        printf("\nGame OVER, Unfortunaly. you stepped on a MINE !!\n");
         if(top!=-1)
         {
             printf("Wanna Undo one step!!!!!! press 'u' for undo.....!!!!\n");
@@ -89,7 +89,7 @@ int main()
         else
         {
             End:
-            printf("No More Undos remaining......!!!!! Game Over..!!!!");
+            printf("No More Undos remaining....!!!!! Game Over..!!!!");
             printf("\n\n\n\n                                                                 Total SCORE=%d\n\n",score);
         }
     }
